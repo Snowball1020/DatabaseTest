@@ -55,7 +55,7 @@
           
           <a href="pro2edit.php?id=<?= $person->id ?>" class="btn btn-info btn-sm">Update / Edit</a>
 <<<<<<< HEAD
-          <a onclick="return confirm('change 3. Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
+          <a onclick="return confirm('hey this is from another. Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
 =======
           <a onclick="return confirm('Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
 >>>>>>> parent of cd53ba5... FirstChange
