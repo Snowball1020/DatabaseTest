@@ -54,7 +54,11 @@
         <td bgcolor="#F2F2F2">
           
           <a href="pro2edit.php?id=<?= $person->id ?>" class="btn btn-info btn-sm">Update / Edit</a>
-          <a onclick="return confirm('change 2. Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
+<<<<<<< HEAD
+          <a onclick="return confirm('change 3. Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
+=======
+          <a onclick="return confirm('Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
+>>>>>>> parent of cd53ba5... FirstChange
 
         </td>
 
