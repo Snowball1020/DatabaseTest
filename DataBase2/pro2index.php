@@ -54,7 +54,7 @@
         <td bgcolor="#F2F2F2">
           
           <a href="pro2edit.php?id=<?= $person->id ?>" class="btn btn-info btn-sm">Update / Edit</a>
-          <a onclick="return confirm('Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
+          <a onclick="return confirm('change 1. Are you sure you want to delete this entry??')" href="pro2delete.php?id=<?= $person->id ?>" class="btn btn-danger btn-sm">Delete</a>
 
         </td>
 
